@@ -1,0 +1,123 @@
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    height: fit-content;
+    padding: 50px;
+   background-image: url("index.jpg");
+   font-size: 100px;
+   background-size:cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+
+   margin-top: 0;
+    
+    font-family: 'Pacifico', cursive;
+    color:rgb(245, 238, 238);
+    text-shadow:5px 5px 10px black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 15px;
+  
+    
+    
+    
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+    background-image: url("gg.jpg");
+    background-size: 1500px;
+    background-position: center center;
+
+}
+.main{
+background-color: rgba(179, 107, 25, 0);
+border-radius: 15px;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(206, 198, 198, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+width: 50%;
+padding: 4px;
+margin-left:25% ;
+display: flex;
+align-items: center;
+
+flex-direction: column;
+height:60%;
+gap:10px;
+transition: 0.5s;
+}
+
+
+.main:hover{
+    background-color: rgba(197, 124, 39, 0.705);
+border-radius: 15px;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(206, 198, 198, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+width: 60%;
+padding: 4px;
+margin-left:20% ;
+display: flex;
+align-items: center;
+
+flex-direction: column;
+height:70%;
+gap:15px
+}
+.name{
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    
+    background-color: brown;
+    color: white;
+    width: fit-content;
+    border-radius: 15px 50px 30px 5px;
+    padding: 10px;
+}
+.type{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    
+    background-color: rgb(219, 182, 16);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 15px 50px 30px 5px;
+    padding: 10px;
+}
+.phone{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    
+    background-color: rgb(219, 182, 16);
+    color: rgb(255, 255, 255);
+    
+    border-radius: 15px 50px 30px 5px;
+    padding: 10px;
+    bottom: 0;
+    left: 5%;
+    
+}
+.ad1{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    
+    background-color: rgb(240, 0, 0);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 15px 50px 30px 5px;
+    padding: 10px;
+}
+
+.ad2{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    
+    background-color: rgb(240, 0, 0);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 15px 50px 30px 5px;
+    padding: 10px;
+}
